@@ -1,0 +1,1323 @@
+* {
+  margin : 0px;
+  padding : 0px;
+}
+
+body {
+  margin : 0px;
+  overflow-x: hidden; /*가로 스크롤바 숨기기 */
+  overflow-y: scroll;
+}
+
+ul {
+  list-style: none;
+}
+
+/*li {
+  float : left;
+}*/
+
+.topBanner {
+  position : absolute;
+  left : 430px;
+  top : 10px;
+}
+
+.topMenu {
+  /*width : 1920px;
+  height : 1080px;*/
+  position : absolute;
+  right : 425px;
+  top : 10px;
+}
+
+.topMenu ul li {
+  font-size: 11px;
+  float : right;
+  margin-right: 15px;
+}
+
+.logo {
+  position : absolute;
+  left : 900px;
+  top : 15px;
+}
+
+.all {
+  position : relative;
+  left : 430px;
+  top : 122px;
+}
+
+.mainMenu {
+  position : relative;
+  left : 460px;
+  top : 100px;
+}
+
+.mainMenu ul li {
+  font-size: 15px;
+  float : left;
+  margin-right : 73px;
+}
+
+/*a {
+  text-decoration: none;
+}
+a.new:hover {
+  text-decoration: underline;
+}*/
+
+/*.wrap {
+  display: flex;
+  flex-flow: row;
+}*/
+
+/*.mainMenuBar {
+  position: sticky;
+  top : 100px;
+  width: 100%;
+  height : 55px;
+  background-color: darkgray;
+}*/
+
+.rounded {
+  position : absolute;
+  left : 1125px;
+  top : 110px;
+  background-color: rgb(248, 247, 247);
+  width : 220px;
+  height : 20px;
+  padding : 0.5em;
+  border-radius: 3em;
+  border-color: rgb(248, 247, 247);
+  border-style: solid;
+}
+
+.rounded_input {
+  background-color: rgb(248, 247, 247);
+  width : 180px;
+  height : 20px;
+  border-top : none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  outline : none;
+}
+
+.search {
+  position : absolute;
+  right : 545px;
+  top : 115px;
+}
+
+.location {
+  position : absolute;
+  right : 480px;
+  top : 115px;
+}
+
+.cart {
+  position : absolute;
+  right : 430px;
+  top : 115px;
+}
+
+.mainBanner {
+  position : absolute;
+  top : 160px;
+}
+
+.first {
+  display: table;
+  position : relative;
+  top : 485px;
+  width : 1900px;
+  height : 680px;
+  background-color : white;
+}
+
+.first_text {
+  display : table-cell;
+  position : absolute;
+  top : 73px;
+  left : 400px;
+  right : 400px;
+  font-size : 18px;
+  text-align : center;
+}
+
+.first_images {
+  display : inline-flex;
+  /*float : left;*/
+  align-items: center;
+  position : relative;
+  top : 140px;
+  left : 400px;
+  right : 150px;
+  margin-left: 30px;
+  margin-right: 100px;
+  overflow: hidden;
+}
+
+.sch img {
+  transition : all 0.5s linear;
+}
+
+.sch:hover img {
+  transform : scale(1.01);
+}
+
+.brch img {
+  transition : all 0.5s linear;
+}
+
+.brch:hover img {
+  transform : scale(1.01);
+}
+
+.crch img {
+  transition : all 0.5s linear;
+}
+
+.crch:hover img {
+  transform : scale(1.01);
+}
+
+.ftch img {
+  transition : all 0.5s linear;
+}
+
+.ftch:hover img {
+  transform : scale(1.01);
+}
+
+
+.first_images .brch {
+  margin-right: 20px;
+  margin-left : 20px;
+}
+
+.first_images .crch {
+  margin-right : 20px;
+}
+
+.sch_text {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size : 17px;
+}
+
+.text_del {
+  font-size : 15px;
+  margin-top: 5px;
+}
+
+.brch_text {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size : 17px;
+}
+
+.crch_text {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size : 17px;
+}
+
+.ftch_text {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size : 17px;
+}
+
+.second {
+  display: table;
+  position : relative;
+  top : 485px;
+  width : 1900px;
+  height : 660px;
+  background-color : rgb(248, 247, 247);
+}
+
+.second_text {
+  display : table-cell;
+  position : absolute;
+  top : 80px;
+  left : 400px;
+  right : 400px;
+  font-size : 18px;
+  text-align : center;
+}
+
+.second_images {
+  display : inline-flex;
+  /*float : left;*/
+  align-items: center;
+  position : relative;
+  top : 150px;
+  left : 400px;
+  right : 200px;
+  margin-left: 20px;
+  margin-right: 100px;
+  overflow: hidden;
+}
+
+.s_meat img {
+  transition : all 0.5s linear;
+}
+
+.s_meat:hover img {
+  transform : scale(1.01);
+}
+
+.s_shampoo img {
+  transition : all 0.5s linear;
+}
+
+.s_shampoo:hover img {
+  transform : scale(1.01);
+}
+
+.s_chicken img {
+  transition : all 0.5s linear;
+}
+
+.s_chicken:hover img {
+  transform : scale(1.01);
+}
+
+
+.second_images .s_shampoo {
+  margin-right: 20px;
+  margin-left : 20px;
+}
+
+.second_images .s_chicken {
+  margin-right : 20px;
+}
+
+.s_meat_text {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size : 17px;
+  text-align: center;
+}
+
+.s_shampoo_text {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size : 17px;
+  text-align: center;
+}
+
+.s_chicken_text {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size : 17px;
+  text-align: center;
+}
+
+.s_meat_text2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size : 17px;
+  text-align: center;
+}
+
+.s_shampoo_text2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size : 17px;
+  text-align: center;
+}
+
+.s_chicken_text2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size : 17px;
+  text-align: center;
+}
+
+.third {
+  display: table;
+  position : relative;
+  top : 485px;
+  width : 1900px;
+  height : 680px;
+  background-color : white;
+}
+
+.third_text {
+  display : table-cell;
+  position : absolute;
+  top : 73px;
+  left : 400px;
+  right : 400px;
+  font-size : 23px;
+  text-align : center;
+}
+
+.third_images {
+  display : inline-flex;
+  /*float : left;*/
+  align-items: center;
+  position : relative;
+  top : 150px;
+  left : 400px;
+  right : 150px;
+  margin-left: 30px;
+  margin-right: 100px;
+  overflow: hidden;
+}
+
+.t_noodle img {
+  transition : all 0.5s linear;
+}
+
+.t_noodle:hover img {
+  transform : scale(1.01);
+}
+
+.t_soup img {
+  transition : all 0.5s linear;
+}
+
+.t_soup:hover img {
+  transform : scale(1.01);
+}
+
+.t_meat img {
+  transition : all 0.5s linear;
+}
+
+.t_meat:hover img {
+  transform : scale(1.01);
+}
+
+.t_beef img {
+  transition : all 0.5s linear;
+}
+
+.t_beef:hover img {
+  transform : scale(1.01);
+}
+
+
+.third_images .t_soup {
+  margin-right: 20px;
+  margin-left : 20px;
+}
+
+.third_images .t_meat {
+  margin-right : 20px;
+}
+
+.t_noodle_text {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size : 17px;
+}
+
+.t_soup_text {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size : 17px;
+}
+
+.t_meat_text {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size : 17px;
+}
+
+.t_beef_text {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size : 17px;
+}
+
+.middleBanner_1 {
+  position : relative;
+  top : 500px;
+  left : 425px;
+  right : 200px;
+  align-items: center;
+}
+
+.middleBanner_2 {
+  position : relative;
+  top : 600px;
+  left : 425px;
+  right : 200px;
+  align-items: center;
+}
+
+.middleBanner_3 {
+  position : relative;
+  top : 380px;
+  left : 425px;
+  right : 200px;
+  align-items: center;
+}
+
+.fourth {
+  display: table;
+  position : relative;
+  top : 485px;
+  width : 1900px;
+  height : 800px;
+  background-color : white;
+}
+
+.fourth_text {
+  display : table-cell;
+  position : absolute;
+  top : 100px;
+  left : 400px;
+  right : 400px;
+  font-size : 30px;
+  text-align : center;
+}
+
+.rounded_btn_1 {
+  position : relative;
+  left : 480px;
+  top : 180px;
+  background-color: rgb(248, 247, 247);
+  width : 70px;
+  height : 25px;
+  padding : 0.5em;
+  border-radius: 3em;
+  text-align: center;
+}
+
+.rounded_btn_2 {
+  position : relative;
+  left : 575px;
+  top : 140px;
+  background-color: rgb(248, 247, 247);
+  width : 130px;
+  height : 25px;
+  padding : 0.5em;
+  border-radius: 3em;
+  text-align: center;
+}
+
+.rounded_btn_3 {
+  position : relative;
+  left : 730px;
+  top : 100px;
+  background-color: rgb(248, 247, 247);
+  width : 140px;
+  height : 25px;
+  padding : 0.5em;
+  border-radius: 3em;
+  text-align: center;
+}
+
+.rounded_btn_4 {
+  position : relative;
+  left : 900px;
+  top : 58px;
+  background-color: rgb(248, 247, 247);
+  width : 90px;
+  height : 25px;
+  padding : 0.5em;
+  border-radius: 3em;
+  text-align: center;
+}
+
+.rounded_btn_5 {
+  position : relative;
+  left : 1020px;
+  top : 15px;
+  background-color: rgb(248, 247, 247);
+  width : 160px;
+  height : 25px;
+  padding : 0.5em;
+  border-radius: 3em;
+  text-align: center;
+}
+
+.rounded_btn_6 {
+  position : relative;
+  left : 1210px;
+  top : -25px;
+  background-color: rgb(248, 247, 247);
+  width : 120px;
+  height : 25px;
+  padding : 0.5em;
+  border-radius: 3em;
+  text-align: center;
+}
+
+.rounded_btn_7 {
+  position : relative;
+  left : 1360px;
+  top : -65px;
+  background-color: rgb(248, 247, 247);
+  width : 120px;
+  height : 25px;
+  padding : 0.5em;
+  border-radius: 3em;
+  text-align: center;
+}
+
+.rounded_btn_8 {
+  position : absolute;
+  left : 420px;
+  top : 240px;
+  background-color: rgb(248, 247, 247);
+  width : 150px;
+  height : 25px;
+  padding : 0.5em;
+  border-radius: 3em;
+  text-align: center;
+}
+
+.rounded_btn_9 {
+  position : absolute;
+  left : 595px;
+  top : 240px;
+  background-color: rgb(248, 247, 247);
+  width : 100px;
+  height : 25px;
+  padding : 0.5em;
+  border-radius: 3em;
+  text-align: center;
+}
+
+.rounded_btn_10 {
+  position : absolute;
+  left : 720px;
+  top : 240px;
+  background-color: rgb(248, 247, 247);
+  width : 170px;
+  height : 25px;
+  padding : 0.5em;
+  border-radius: 3em;
+  text-align: center;
+}
+
+.rounded_btn_11 {
+  position : absolute;
+  left : 920px;
+  top : 240px;
+  background-color: rgb(248, 247, 247);
+  width : 90px;
+  height : 25px;
+  padding : 0.5em;
+  border-radius: 3em;
+  text-align: center;
+}
+
+.rounded_btn_12 {
+  position : absolute;
+  left : 1040px;
+  top : 240px;
+  background-color: rgb(248, 247, 247);
+  width : 130px;
+  height : 25px;
+  padding : 0.5em;
+  border-radius: 3em;
+  text-align: center;
+}
+
+.rounded_btn_13 {
+  position : absolute;
+  left : 1200px;
+  top : 240px;
+  background-color: rgb(248, 247, 247);
+  width : 150px;
+  height : 25px;
+  padding : 0.5em;
+  border-radius: 3em;
+  text-align: center;
+}
+
+.rounded_btn_14 {
+  position : absolute;
+  left : 1380px;
+  top : 240px;
+  background-color: rgb(248, 247, 247);
+  width : 130px;
+  height : 25px;
+  padding : 0.5em;
+  border-radius: 3em;
+  text-align: center;
+}
+
+.rounded_btn_15 {
+  position : absolute;
+  left : 690px;
+  top : 300px;
+  background-color: rgb(248, 247, 247);
+  width : 100px;
+  height : 25px;
+  padding : 0.5em;
+  border-radius: 3em;
+  text-align: center;
+}
+
+.rounded_btn_16 {
+  position : absolute;
+  left : 820px;
+  top : 300px;
+  background-color: rgb(248, 247, 247);
+  width : 100px;
+  height : 25px;
+  padding : 0.5em;
+  border-radius: 3em;
+  text-align: center;
+}
+
+.rounded_btn_17 {
+  position : absolute;
+  left : 950px;
+  top : 300px;
+  background-color: rgb(248, 247, 247);
+  width : 110px;
+  height : 25px;
+  padding : 0.5em;
+  border-radius: 3em;
+  text-align: center;
+}
+
+.rounded_btn_18 {
+  position : absolute;
+  left : 1090px;
+  top : 300px;
+  background-color: rgb(248, 247, 247);
+  width : 100px;
+  height : 25px;
+  padding : 0.5em;
+  border-radius: 3em;
+  text-align: center;
+}
+
+
+.fourth_images {
+  display : inline-flex;
+  /*float : left;*/
+  align-items: center;
+  position : relative;
+  top : 100px;
+  left : 400px;
+  right : 150px;
+  margin-left: 30px;
+  margin-right: 100px;
+  overflow: hidden;
+}
+
+.f_hair img {
+  transition : all 0.5s linear;
+}
+
+.f_hair:hover img {
+  transform : scale(1.01);
+}
+
+.f_tooth img {
+  transition : all 0.5s linear;
+}
+
+.f_tooth:hover img {
+  transform : scale(1.01);
+}
+
+.f_ts img {
+  transition : all 0.5s linear;
+}
+
+.f_ts:hover img {
+  transform : scale(1.01);
+}
+
+.f_kamil img {
+  transition : all 0.5s linear;
+}
+
+.f_kamil:hover img {
+  transform : scale(1.01);
+}
+
+
+.fourth_images .f_tooth {
+  margin-right: 20px;
+  margin-left : 20px;
+}
+
+.fourth_images .f_ts {
+  margin-right : 20px;
+}
+
+.f_hair_text {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size : 17px;
+}
+
+.f_tooth_text {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size : 17px;
+}
+
+.f_ts_text {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size : 17px;
+}
+
+.f_kamil_text {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size : 17px;
+}
+
+.fifth {
+  display: table;
+  position : relative;
+  top : 600px;
+  width : 1900px;
+  height : 680px;
+  background-color : white;
+}
+
+.fifth_text {
+  display : table-cell;
+  position : absolute;
+  top : 80px;
+  left : 400px;
+  right : 400px;
+  font-size : 35px;
+  text-align : center;
+}
+
+.fifth_images {
+  display : inline-flex;
+  /*float : left;*/
+  align-items: center;
+  position : relative;
+  top : 150px;
+  left : 400px;
+  right : 150px;
+  margin-left: 30px;
+  margin-right: 100px;
+  overflow: hidden;
+}
+
+.ff_beef img {
+  transition : all 0.5s linear;
+}
+
+.ff_beef:hover img {
+  transform : scale(1.01);
+}
+
+.ff_corn img {
+  transition : all 0.5s linear;
+}
+
+.ff_corn:hover img {
+  transform : scale(1.01);
+}
+
+.ff_meat img {
+  transition : all 0.5s linear;
+}
+
+.ff_meat:hover img {
+  transform : scale(1.01);
+}
+
+.ff_peach img {
+  transition : all 0.5s linear;
+}
+
+.ff_peach:hover img {
+  transform : scale(1.01);
+}
+
+
+.fifth_images .ff_corn {
+  margin-right: 20px;
+  margin-left : 20px;
+}
+
+.fifth_images .ff_meat {
+  margin-right : 20px;
+}
+
+.ff_beef_text {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size : 17px;
+}
+
+.text_del {
+  font-size : 15px;
+  margin-top: 5px;
+}
+
+.ff_corn_text {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size : 17px;
+}
+
+.ff_meat_text {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size : 17px;
+}
+
+.ff_peach_text {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size : 17px;
+}
+
+.sixth {
+  display: table;
+  position : relative;
+  top : 600px;
+  width : 1900px;
+  height : 680px;
+  background-color : rgb(248, 247, 247);
+}
+
+.sixth_text {
+  display : table-cell;
+  position : absolute;
+  top : 80px;
+  left : 400px;
+  right : 400px;
+  font-size : 30px;
+  text-align : center;
+}
+
+.sixth_images {
+  display : inline-flex;
+  /*float : left;*/
+  align-items: center;
+  position : relative;
+  top : 155px;
+  left : 400px;
+  right : 150px;
+  margin-left: 30px;
+  margin-right: 100px;
+  overflow: hidden;
+}
+
+.sx_pan img {
+  transition : all 0.5s linear;
+}
+
+.sx_pan:hover img {
+  transform : scale(1.01);
+}
+
+.sx_ziploc img {
+  transition : all 0.5s linear;
+}
+
+.sx_ziploc:hover img {
+  transform : scale(1.01);
+}
+
+.sx_spoon img {
+  transition : all 0.5s linear;
+}
+
+.sx_spoon:hover img {
+  transform : scale(1.01);
+}
+
+.sx_pot img {
+  transition : all 0.5s linear;
+}
+
+.sx_pot:hover img {
+  transform : scale(1.01);
+}
+
+
+.sixth_images .sx_ziploc {
+  margin-right: 20px;
+  margin-left : 20px;
+}
+
+.sixth_images .sx_spoon {
+  margin-right : 20px;
+}
+
+.sx_pan_text {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size : 17px;
+}
+
+.text_del {
+  font-size : 15px;
+  margin-top: 5px;
+}
+
+.sx_ziploc_text {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size : 17px;
+}
+
+.sx_spoon_text{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size : 17px;
+}
+
+.sx_pot_text {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size : 17px;
+}
+
+.seventh {
+  display: table;
+  position : relative;
+  top : 600px;
+  width : 1900px;
+  height : 680px;
+  background-color : rgb(248, 247, 247);
+}
+
+.seventh_text {
+  display : table-cell;
+  position : absolute;
+  top : 80px;
+  left : 400px;
+  right : 400px;
+  font-size : 30px;
+  text-align : center;
+  margin-bottom: 10px;
+}
+
+.seventh_text_2 {
+  margin-top: 10px;
+  font-size: 17px;
+  text-align: center;
+}
+
+.seventh_images {
+  display : inline-flex;
+  /*float : left;*/
+  align-items: center;
+  position : relative;
+  top : 195px;
+  left : 400px;
+  right : 150px;
+  margin-left: 30px;
+  margin-right: 100px;
+  overflow: hidden;
+}
+
+.sv_spotato img {
+  transition : all 0.5s linear;
+}
+
+.sv_spotato:hover img {
+  transform : scale(1.01);
+}
+
+.sv_paa img {
+  transition : all 0.5s linear;
+}
+
+.sv_paa:hover img {
+  transform : scale(1.01);
+}
+
+.sv_ramen img {
+  transition : all 0.5s linear;
+}
+
+.sv_ramen:hover img {
+  transform : scale(1.01);
+}
+
+.sv_butter img {
+  transition : all 0.5s linear;
+}
+
+.sv_butter:hover img {
+  transform : scale(1.01);
+}
+
+
+.seventh_images .sv_paa {
+  margin-right: 20px;
+  margin-left : 20px;
+}
+
+.seventh_images .sv_ramen {
+  margin-right : 20px;
+}
+
+.sv_spotato_text {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size : 17px;
+}
+
+.sv_paa_text {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size : 17px;
+}
+
+.sv_ramen_text{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size : 17px;
+}
+
+.sv_butter_text {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size : 17px;
+}
+
+.eighth {
+  display: table;
+  position : relative;
+  top : 600px;
+  width : 1900px;
+  height : 680px;
+  background-color : white;
+}
+
+.eighth_text {
+  display : table-cell;
+  position : absolute;
+  top : 80px;
+  left : 400px;
+  right : 400px;
+  font-size : 30px;
+  text-align : center;
+  margin-bottom: 10px;
+}
+
+.eighth_text_2 {
+  margin-top: 10px;
+  font-size: 17px;
+  text-align: center;
+}
+
+.eighth_images {
+  display : inline-flex;
+  /*float : left;*/
+  align-items: center;
+  position : relative;
+  top : 195px;
+  left : 400px;
+  right : 150px;
+  margin-left: 30px;
+  margin-right: 100px;
+  overflow: hidden;
+}
+
+.e_soba img {
+  transition : all 0.5s linear;
+}
+
+.e_soba:hover img {
+  transform : scale(1.01);
+}
+
+.e_berry img {
+  transition : all 0.5s linear;
+}
+
+.e_berry:hover img {
+  transform : scale(1.01);
+}
+
+.e_coffee img {
+  transition : all 0.5s linear;
+}
+
+.e_coffee:hover img {
+  transform : scale(1.01);
+}
+
+.e_wmelon img {
+  transition : all 0.5s linear;
+}
+
+.e_wmelon:hover img {
+  transform : scale(1.01);
+}
+
+
+.eighth_images .e_berry {
+  margin-right: 20px;
+  margin-left : 20px;
+}
+
+.eighth_images .e_coffee {
+  margin-right : 20px;
+}
+
+.e_soba_text {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size : 17px;
+}
+
+.e_berry_text {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size : 17px;
+}
+
+.e_coffee_text{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size : 17px;
+}
+
+.e_wmelon_text {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size : 17px;
+}
+
+.ninth {
+  display: table;
+  position : relative;
+  top : 620px;
+  width : 1900px;
+  height : 600px;
+  background-color : white;
+}
+
+.ninth_text {
+  display : table-cell;
+  position : absolute;
+  top : 80px;
+  left : 400px;
+  right : 400px;
+  font-size : 30px;
+  text-align : center;
+  margin-bottom: 10px;
+}
+
+.ninth_images {
+  display : inline-flex;
+  /*float : left;*/
+  align-items: center;
+  position : relative;
+  top : 155px;
+  left : 400px;
+  right : 150px;
+  margin-left: 30px;
+  margin-right: 100px;
+  overflow: hidden;
+}
+
+.n_noodle img {
+  transition : all 0.5s linear;
+}
+
+.n_noodle:hover img {
+  transform : scale(1.01);
+}
+
+.n_rzna img {
+  transition : all 0.5s linear;
+}
+
+.n_rzna:hover img {
+  transform : scale(1.01);
+}
+
+.n_octo img {
+  transition : all 0.5s linear;
+}
+
+.n_octo:hover img {
+  transform : scale(1.01);
+}
+
+.ninth_images .n_rzna {
+  margin-right: 20px;
+  margin-left : 20px;
+}
+
+.n_noodle_text {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size : 17px;
+  text-align: center;
+}
+
+.n_rzna_text {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size : 17px;
+  text-align: center;
+}
+
+.n_octo_text{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size : 17px;
+  text-align: center;
+}
+
+.tenth {
+  display: table;
+  position : relative;
+  top : 500px;
+  width : 1900px;
+  height : 600px;
+  background-color : white;
+}
+
+.tenth_text {
+  display : table-cell;
+  position : absolute;
+  top : 80px;
+  left : 400px;
+  right : 400px;
+  font-size : 30px;
+  text-align : center;
+  margin-bottom: 10px;
+}
+
+.tenth_images {
+  display : inline-flex;
+  /*float : left;*/
+  align-items: center;
+  position : relative;
+  top : 155px;
+  left : 400px;
+  right : 150px;
+  margin-left: 30px;
+  margin-right: 100px;
+  overflow: hidden;
+}
+
+.eleventh_text {
+  position : relative;
+  top : 280px;
+  left : 10px;
+  right : 200px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.eleventh_text_2 {
+  margin-top : 10px;
+}
+
